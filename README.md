@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌤️ Application Météo
 
 <p>Une application météo simple qui utilise les APIs <strong>Open-Meteo</strong> et <strong>OpenStreetMap</strong> pour afficher les conditions météorologiques actuelles, les prévisions horaires et quotidiennes, ainsi que les heures de lever et coucher du soleil basées sur la géolocalisation de l'utilisateur.</p>
@@ -38,6 +37,4 @@
 
 ## 📜 Licence
 <p>Ce projet est sous <strong>licence MIT</strong>. Voir le fichier <a href="LICENSE">LICENSE</a> pour plus d'informations.</p>
-=======
 
->>>>>>> 716e4312a2ba4c2b2dde90817bc07f3bebf0ce06
