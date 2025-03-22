@@ -1,0 +1,244 @@
+@keyframes animation {
+    0% {
+        animation-duration: 2s;
+        transform: rotate(360deg);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all {
+    color: white;
+    background: linear-gradient(#c1e4f8, #a8cffa);
+    height: 57em;
+    width: 35%;
+    margin: auto;
+    font-family: 'Montserrat';
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.header div h1, h2 {
+    font-weight: 500;
+}
+
+.header div h1 {
+    font-size: 60px;
+}
+
+.header div h2 {
+    font-size:35px;
+}
+
+.header div .fa-sun{
+    font-size: 55px;
+}
+
+.header div .fa-sun {
+    animation: animation 3s infinite linear;
+}
+
+.fa-sun, .fa-moon {
+    color: gold;
+}
+
+.text {
+    margin: 0px 0px 30px 45px;
+}
+
+.text p {
+    font-weight: 400;
+}
+
+.cont1 {
+    height: 180px;
+    gap: 5px;
+}
+
+.cont1 .cont-inside {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.cont1 div .txt-4 {
+    margin: 0px 0px 0px 25px;
+}
+
+.cont1 div .fa-sun {
+    font-size: 21px;
+}
+
+.cont1 div .fa-droplet {
+    font-size: 20px;
+}
+
+.back-lght {
+    background-color: #cce7fa;
+    margin: 0px 2px 30px 2px;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+.cont2 {
+    flex-direction: column;
+    height: 250px;
+}
+
+.cont2 .cont-inside {
+    display: flex;
+    margin: 15px 0px 0px 20px;
+    gap: 20px;
+}
+
+.cont2 .cont-inside div p {
+    font-weight: 600;
+}
+
+.cont2 .cont-inside div:first-child {
+    width: 50px;
+}
+
+.cont2 .cont-inside .sec {
+    display: flex;
+}
+
+.cont2 .cont-inside div .fa-droplet {
+    margin-right: 3px;
+}
+
+.cont2 .cont-inside div {
+    flex-grow: 1;
+}
+
+.cont3 {
+    height: 170px;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.cont3 .cont-inside {
+    display: flex;
+    margin-top: 8px;
+    justify-content: space-evenly;
+}
+
+.cont3 .cont-inside .fa-sun {
+    font-size: 80px;
+}
+
+.cont3 .cont-inside .fa-long-arrow-down, .fa-long-arrow-up {
+    font-size: 60px;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.cont3 .cont-inside div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont3 .cont-inside div:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.all .cnt1 {
+    background-color: #cce7fa;
+    margin: 0px 2px 30px 2px;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+.all .cnt1 .cnt-inside {
+    display: flex;
+    gap: 27px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.all .cnt1 .cnt-inside .jm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.all .cnt1 .cnt-inside .jm .time {
+    margin: 20px 0px 0px 0px;
+}
+
+.all .cnt1 .cnt-inside .jm .icon {
+    justify-content: center;
+}
+
+.all .cnt1 .cnt-inside .jm .temp {
+    display: flex;
+    justify-content: center;
+}
+
+.all .cnt1 .cnt-inside .jm .prob {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-droplet {
+    margin-right: 3px;
+    margin-top: 2px;
+    background-color: rgba(red, green, blue, alpha);
+}
+
+.spinner-border{
+    position: absolute;
+    left: 48%;
+    top: 40%;
+}
+
+.cnt2 {
+    background-color: #cce7fa;
+    margin: 0px 2px 30px 2px;
+    border-radius: 25px;
+    overflow: auto;
+    height: 12em;
+}
+
+.cnt2-inside {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.cin {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 30px;
+}
+
+.days {
+    font-weight:600;
+}
+
+.cin1, .cin4, .cin5 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cin2, .cin3 {
+    display: flex;
+    flex-direction: column;
+    gap: 27.9px;
+    margin-top: 4px;
+}
+
+.cin4, .cin5 {
+    font-weight: 600;
+}
