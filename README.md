@@ -2,6 +2,10 @@
 
 <p>Une application météo simple qui utilise les APIs <strong>Open-Meteo</strong> et <strong>OpenStreetMap</strong> pour afficher les conditions météorologiques actuelles, les prévisions horaires et quotidiennes, ainsi que les heures de lever et coucher du soleil basées sur la géolocalisation de l'utilisateur.</p>
 
+## 📸 Screenshot
+
+![Screenshot de l'application](assets/images/screenshot.png)
+
 ## 🔧 Fonctionnalités
 <ul>
     <li><strong>Météo actuelle</strong> : Affiche la température actuelle, la température ressentie et les conditions météorologiques.</li>
@@ -27,14 +31,3 @@
 
 ## 💡 Exemple d'utilisation
 <p>L'application utilise la géolocalisation de l'utilisateur pour afficher les données météorologiques actuelles et les prévisions.</p>
-
-## 🤝 Contribuer
-<p>Les contributions sont les bienvenues ! Pour contribuer :</p>
-<ul>
-    <li>Ouvrez une <strong>issue</strong> pour signaler un bug ou suggérer une amélioration.</li>
-    <li>Envoyez une <strong>pull request</strong> pour proposer des modifications.</li>
-</ul>
-
-## 📜 Licence
-<p>Ce projet est sous <strong>licence MIT</strong>. Voir le fichier <a href="LICENSE">LICENSE</a> pour plus d'informations.</p>
-
